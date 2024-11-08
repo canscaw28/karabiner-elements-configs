@@ -215,7 +215,7 @@
               }
           ],
           "from": {
-              "key_code": "period",
+              "key_code": "comma",
               "modifiers": { "optional": ["any"] }
           },
           "to": [
@@ -235,7 +235,7 @@
               }
           ],
           "from": {
-              "key_code": "n",
+              "key_code": "m",
               "modifiers": { "optional": ["any"] }
           },
           "to": [
@@ -255,7 +255,7 @@
               }
           ],
           "from": {
-              "key_code": "comma",
+              "key_code": "period",
               "modifiers": { "optional": ["any"] }
           },
           "to": [
@@ -275,7 +275,7 @@
               }
           ],
           "from": {
-              "key_code": "m",
+              "key_code": "n",
               "modifiers": { "optional": ["any"] }
           },
           "to": [
