@@ -1,23 +1,23 @@
 | Key / Shortcut | Behavior | Description |
 | --- | --- | --- |
-| ⇪ + J | Left Arrow | Move cursor to the left |
-| ⇪ + K | Down Arrow | Move cursor down |
+| ⇪ + H | Left Arrow | Move cursor to the left |
+| ⇪ + J | Down Arrow | Move cursor down |
+| ⇪ + K | Up Arrow | Move cursor up |
 | ⇪ + L | Right Arrow  | Move cursor to the right |
-| ⇪ + I | Up Arrow | Move cursor up |
-| ⇪ + U | ⌥ + Left Arrow | Jump back one word |
-| ⇪ + O | ⌥ + Right Arrow | Jump forward one word |
-| ⇪ + H | ⌘ + Left Arrow | Jumps cursor to the start of the line |
-| ⇪ + ; | ⌘ + Right Arrow | Jumps cursor to the end of the line |
-| ⇪ + M | TBD | Moves cursor down quickly |
-| ⇪ + , | TBD | Moves cursor up quickly |
-| ⇪ + N | ⌘ + Down Arrow | Moves cursor to the bottom of an input field |
-| ⇪ + . | ⌘ + Up Arrow | Moves cursor to the top of an input field |
-| ⇪ + W | ⌫ | Delete one character backwards |
-| ⇪ + E | ⌦ | Delete one character forwards |
-| ⇪ + S | ⌥ + ⌫ | Delete one word backwards |
-| ⇪ + D | ⌥ + ⌦ | Delete one word forwards |
-| ⇪ + X | ⌘ + ⌫ | Delete text to the left of the cursor |
-| ⇪ + C | ⌃ + K | Delete text to the right of the cursor |
-| ⇪ + A | Esc | Easy to reach Esc key alternative |
-| R⇧ + R⇧ | ⇪ | Double tap right shift to trigger caps lock |
+| ⇪ +U | ⌥ + Left Arrow | Jump back one word |
+| ⇪ + I | ⌥ + Right Arrow | Jump forward one word |
+| ⇪ + Y | ⌘ + Left Arrow | Jumps cursor to the start of the line |
+| ⇪ + O | ⌘ + Right Arrow | Jumps cursor to the end of the line |
+| ⇪ + N | ⌥  + Page Down | Moves cursor down quickly |
+| ⇪ + . | ⌥  + Page Up | Moves cursor up quickly |
+| ⇪ + M | ⌘ + Down Arrow | Moves cursor to the bottom of an input field |
+| ⇪ + , | ⌘ + Up Arrow | Moves cursor to the top of an input field |
+| ⇪ + E | ⌫ | Delete one character backwards |
+| ⇪ + R | ⌦ | Delete one character forwards |
+| ⇪ + D | ⌥ + ⌫ | Delete one word backwards |
+| ⇪ + F | ⌥ + ⌦ | Delete one word forwards |
+| ⇪ + C | ⌘ + ⌫ | Delete text to the left of the cursor |
+| ⇪ + V | ⌃ + K | Delete text to the right of the cursor |
+| ⇪ + ; | Esc | Easy to reach Esc key alternative |
+| ⇪ + R⇧ | ⇪ | Turn caps-lock on with caps-lock and right shift |
 | ⇪ + ⇪ | ⌃ + ⌃ | Double tap caps lock to trigger LanguageTool tooltip |
