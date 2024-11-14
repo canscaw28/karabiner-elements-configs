@@ -67,6 +67,21 @@
           "type": "basic"
       },
       {
+        "conditions": [
+            {
+                "name": "caps_lock_is_held",
+                "type": "variable_if",
+                "value": 1
+            }
+        ],
+        "from": {
+            "key_code": "right_shift",
+            "modifiers": { "optional": ["any"] }
+        },
+        "to": [{ "key_code": "caps_lock" }],
+        "type": "basic"
+      },
+      {
           "conditions": [
               {
                   "name": "caps_lock_is_held",
@@ -79,21 +94,6 @@
               "modifiers": { "optional": ["any"] }
           },
           "to": [{ "key_code": "left_arrow" }],
-          "type": "basic"
-      },
-      {
-          "conditions": [
-              {
-                  "name": "caps_lock_is_held",
-                  "type": "variable_if",
-                  "value": 1
-              }
-          ],
-          "from": {
-              "key_code": "right_shift",
-              "modifiers": { "optional": ["any"] }
-          },
-          "to": [{ "key_code": "caps_lock" }],
           "type": "basic"
       },
       {
@@ -139,6 +139,18 @@
               "modifiers": { "optional": ["any"] }
           },
           "to": [{ "key_code": "down_arrow" }],
+          "type": "basic"
+      },
+      {
+          "conditions": [
+              {
+                  "name": "caps_lock_is_held",
+                  "type": "variable_if",
+                  "value": 1
+              }
+          ],
+          "from": { "key_code": "semicolon" },
+          "to": [{ "key_code": "escape" }],
           "type": "basic"
       },
       {
@@ -391,18 +403,6 @@
                   "modifiers": ["control"]
               }
           ],
-          "type": "basic"
-      },
-      {
-          "conditions": [
-              {
-                  "name": "caps_lock_is_held",
-                  "type": "variable_if",
-                  "value": 1
-              }
-          ],
-          "from": { "key_code": "semicolon" },
-          "to": [{ "key_code": "escape" }],
           "type": "basic"
       }
   ]
