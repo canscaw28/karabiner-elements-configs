@@ -347,6 +347,26 @@
                     "name": "caps_lock_is_held",
                     "type": "variable_if",
                     "value": 1
+                },
+                {
+                    "name": "a_is_held",
+                    "type": "variable_if",
+                    "value": 0
+                },
+                {
+                    "name": "s_is_held",
+                    "type": "variable_if",
+                    "value": 0
+                },
+                {
+                    "name": "d_is_held",
+                    "type": "variable_if",
+                    "value": 0
+                },
+                {
+                    "name": "f_is_held",
+                    "type": "variable_if",
+                    "value": 0
                 }
             ],
             "from": { "key_code": "semicolon" },
@@ -660,7 +680,13 @@
                 "key_code": "j",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "up_arrow" }],
+            "to": [
+                { 
+                    "key_code": "down_arrow",
+                    "modifiers": ["shift"]
+                },
+                { "key_code": "delete_or_backspace" }
+            ],
             "type": "basic"
         },
         {
@@ -695,7 +721,13 @@
                 "key_code": "k",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "up_arrow" }],
+            "to": [
+                { 
+                    "key_code": "up_arrow",
+                    "modifiers": ["shift"]
+                },
+                { "key_code": "delete_or_backspace" }
+            ],
             "type": "basic"
         },
         {
@@ -731,6 +763,47 @@
                 "modifiers": { "optional": ["any"] }
             },
             "to": [{ "key_code": "delete_forward" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "caps_lock_is_held",
+                    "type": "variable_if",
+                    "value": 1
+                },
+                {
+                    "name": "a_is_held",
+                    "type": "variable_if",
+                    "value": 0
+                },
+                {
+                    "name": "s_is_held",
+                    "type": "variable_if",
+                    "value": 0
+                },
+                {
+                    "name": "d_is_held",
+                    "type": "variable_if",
+                    "value": 1
+                },
+                {
+                    "name": "f_is_held",
+                    "type": "variable_if",
+                    "value": 0
+                }
+            ],
+            "from": {
+                "key_code": "semicolon",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "key_code": "a",
+                    "modifiers": ["command"]
+                },
+                { "key_code": "delete_or_backspace" }
+            ],
             "type": "basic"
         },
         {
@@ -887,8 +960,53 @@
             },
             "to": [
                 {
-                    "key_code": "k",
-                    "modifiers": ["control"]
+                    "key_code": "right_arrow",
+                    "modifiers": ["shift"]
+                },
+                { "key_code": "delete_or_backspace" }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "name": "caps_lock_is_held",
+                    "type": "variable_if",
+                    "value": 1
+                },
+                {
+                    "name": "a_is_held",
+                    "type": "variable_if",
+                    "value": 0
+                },
+                {
+                    "name": "s_is_held",
+                    "type": "variable_if",
+                    "value": 0
+                },
+                {
+                    "name": "d_is_held",
+                    "type": "variable_if",
+                    "value": 1
+                },
+                {
+                    "name": "f_is_held",
+                    "type": "variable_if",
+                    "value": 0
+                }
+            ],
+            "from": {
+                "key_code": "p",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["command"]
+                },
+                { 
+                    "key_code": "delete_or_backspace",
+                    "modifiers": ["command"]
                 }
             ],
             "type": "basic"
@@ -927,8 +1045,8 @@
             },
             "to": [
                 {
-                    "key_code": "down_arrow",
-                    "modifiers": ["command"]
+                    "key_code": "k",
+                    "modifiers": ["control"]
                 }
             ],
             "type": "basic"
@@ -968,8 +1086,9 @@
             "to": [
                 {
                     "key_code": "up_arrow",
-                    "modifiers": ["command"]
-                }
+                    "modifiers": ["option", "shift"]
+                },
+                { "key_code": "delete_or_backspace" }
             ],
             "type": "basic"
         },
