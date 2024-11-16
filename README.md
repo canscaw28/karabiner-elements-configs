@@ -5,9 +5,9 @@
 | ⇪ + ⇪ | ⌃ + ⌃ | Trigger LanguageTool tooltip |
 | ⇪ + R⇧ | ⇪ | Trigger Caps-Lock |
 | ⇪ + A | Layer 1 |  |
-| ⇪ + S | Layer 2 |  |
+| ⇪ + S | Layer 2 | Text Selection Layer |
 | ⇪ + D | Layer 3 | Text Deletion Layer |
-| ⇪ + F | Layer 4 | Text Selection Layer |
+| ⇪ + F | Layer 4 |  |
 | ⇪ + G |  |  |
 | ⇪ + Q |  |  |
 | ⇪ + W |  |  |
