@@ -961,7 +961,7 @@
             "to": [
                 {
                     "key_code": "right_arrow",
-                    "modifiers": ["shift"]
+                    "modifiers": ["command", "shift"]
                 },
                 { "key_code": "delete_or_backspace" }
             ],
