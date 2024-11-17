@@ -22,7 +22,7 @@
 
 ---
 
-## Cursor Movement
+## Cursor Movement Layer
 
 | Key / Shortcut | Behavior | Description |
 | --- | --- | --- |
@@ -44,7 +44,7 @@
 
 ---
 
-## Text Selection
+## Text Selection Layer
 
 | Key / Shortcut | Behavior | Description |
 | --- | --- | --- |
@@ -66,7 +66,7 @@
 
 ---
 
-## Text Deletion
+## Text Deletion Layer
 
 | Key / Shortcut | Behavior | Description |
 | --- | --- | --- |
@@ -85,3 +85,52 @@
 | ⇪ + D + , | ⌥ + ⇧ + ↑, ⌫ | Delete the paragraph up from the cursor |
 | ⇪ + D + . |  |  |
 | ⇪ + D + / |  |  |
+
+## Mouse Layer
+
+| Key / Shortcut | Behavior | Description |
+| --- | --- | --- |
+| ⇪ + F + H | ⌃ + ` | Hammerspoon: Scroll down |
+| ⇪ + F + J | ⌃ + 1 | Hammerspoon: Scroll up |
+| ⇪ + F + K | ⌃ + 2 | Hammerspoon: Scroll left |
+| ⇪ + F + L | ⌃ + 3 | Hammerspoon: Scroll right |
+| ⇪ + F + ; | ⌃ + 4 | Hammerspoon: Scroll half a page down |
+| ⇪ + F + Y | ⌃ + 5 | Hammerspoon: Scroll half a page up |
+| ⇪ + F + U |  |  |
+| ⇪ + F + I |  |  |
+| ⇪ + F + O |  |  |
+| ⇪ + F + P |  |  |
+| ⇪ + F + N |  |  |
+| ⇪ + F + M |  |  |
+| ⇪ + F + , |  |  |
+| ⇪ + F + . |  |  |
+| ⇪ + F + / |  |  |
+
+---
+
+## HammerSpoon
+
+*These keys are widely available for remapping*
+
+| Key / Shortcut | Description |
+| --- | --- |
+| ⌃ + ` | Scroll down |
+| ⌃ + 1 | Scroll up |
+| ⌃ + 2 | Scroll left |
+| ⌃ + 3 | Scroll right |
+| ⌃ + 4 | Scroll half a page down |
+| ⌃ + 5 | Scroll half a page up |
+| ⌃ + 6 |  |
+| ⌃ + 7 |  |
+| ⌃ + 8 |  |
+| ⌃ + 9 |  |
+| ⌃ + 0 |  |
+| ⌃ + - |  |
+| ⌃ + = |  |
+| ⌃ + [ |  |
+| ⌃ + ] |  |
+| ⌃ + ; |  |
+| ⌃ + ‘ |  |
+| ⌃ + , |  |
+| ⌃ + . |  |
+| ⌃ + / |  |
