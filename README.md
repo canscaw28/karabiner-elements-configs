@@ -96,10 +96,10 @@
 | ⇪ + F + L | ⌃ + 3 | Hammerspoon: Scroll right |
 | ⇪ + F + ; | ⌃ + 4 | Hammerspoon: Scroll half a page down |
 | ⇪ + F + Y | ⌃ + 5 | Hammerspoon: Scroll half a page up |
-| ⇪ + F + U |  |  |
-| ⇪ + F + I |  |  |
-| ⇪ + F + O |  |  |
-| ⇪ + F + P |  |  |
+| ⇪ + F + U | ⌃ + 6 | Hammerspoon: Scroll a full page down |
+| ⇪ + F + I | ⌃ + 7 | Hammerspoon: Scroll a full page up |
+| ⇪ + F + O | ⌃ + 8 | Hammerspoon: Scroll to the bottom of the window |
+| ⇪ + F + P | ⌃ + 9 | Hammerspoon: Scroll to the top of the window |
 | ⇪ + F + N |  |  |
 | ⇪ + F + M |  |  |
 | ⇪ + F + , |  |  |
