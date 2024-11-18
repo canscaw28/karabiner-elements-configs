@@ -1768,7 +1768,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "end",
+                                        "key_code": "8",
                                         "modifiers": ["control"]
                                     }
                                 ],
@@ -1888,7 +1888,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "home"
+                                        "key_code": "9",
+                                        "modifiers": ["control"]
                                     }
                                 ],
                                 "type": "basic"
@@ -1927,7 +1928,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "page_down"
+                                        "key_code": "6",
+                                        "modifiers": ["control"]
                                     }
                                 ],
                                 "type": "basic"
@@ -1966,7 +1968,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "page_up"
+                                        "key_code": "7",
+                                        "modifiers": ["control"]
                                     }
                                 ],
                                 "type": "basic"

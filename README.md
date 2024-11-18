@@ -120,10 +120,10 @@
 | ⌃ + 3 | Scroll right |
 | ⌃ + 4 | Scroll half a page down |
 | ⌃ + 5 | Scroll half a page up |
-| ⌃ + 6 |  |
-| ⌃ + 7 |  |
-| ⌃ + 8 |  |
-| ⌃ + 9 |  |
+| ⌃ + 6 | Scroll a full page down |
+| ⌃ + 7 | Scroll a full page up |
+| ⌃ + 8 | Scroll to the bottom of the window |
+| ⌃ + 9 | Scroll to the top of the window |
 | ⌃ + 0 |  |
 | ⌃ + - |  |
 | ⌃ + = |  |
