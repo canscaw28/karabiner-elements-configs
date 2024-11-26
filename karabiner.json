@@ -194,7 +194,8 @@
                                             "name": "f_is_held",
                                             "value": 1
                                         }
-                                    }
+                                    },
+                                    { "key_code": "0", "modifiers": ["control"] }
                                 ],
                                 "to_after_key_up": [
                                     {
