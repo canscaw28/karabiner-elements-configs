@@ -2498,7 +2498,7 @@
                                 "to": [
                                     {
                                         "key_code": "page_up",
-                                        "modifiers": ["command", "shift"]
+                                        "modifiers": ["control", "shift"]
                                     }
                                 ],
                                 "type": "basic"
@@ -2542,7 +2542,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_arrow",
+                                        "key_code": "open_bracket",
                                         "modifiers": ["command"]
                                     }
                                 ],
@@ -2587,7 +2587,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_arrow",
+                                        "key_code": "close_bracket",
                                         "modifiers": ["command"]
                                     }
                                 ],
@@ -2633,7 +2633,7 @@
                                 "to": [
                                     {
                                         "key_code": "page_down",
-                                        "modifiers": ["command", "shift"]
+                                        "modifiers": ["control", "shift"]
                                     }
                                 ],
                                 "type": "basic"
