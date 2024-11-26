@@ -7,7 +7,7 @@
 | ⇪ + A | Layer 1 |  |
 | ⇪ + S | Layer 2 | Text Selection Layer |
 | ⇪ + D | Layer 3 | Text Deletion Layer |
-| ⇪ + F | Layer 4 |  |
+| ⇪ + F | Layer 4 | Scroll Layer |
 | ⇪ + G |  |  |
 | ⇪ + Q |  |  |
 | ⇪ + W |  |  |
@@ -86,25 +86,49 @@
 | ⇪ + D + . |  |  |
 | ⇪ + D + / |  |  |
 
-## Mouse Layer
+---
+
+## Scroll Layer
 
 | Key / Shortcut | Behavior | Description |
 | --- | --- | --- |
-| ⇪ + F + H | ⌃ + ` | Hammerspoon: Scroll down |
-| ⇪ + F + J | ⌃ + 1 | Hammerspoon: Scroll up |
-| ⇪ + F + K | ⌃ + 2 | Hammerspoon: Scroll left |
-| ⇪ + F + L | ⌃ + 3 | Hammerspoon: Scroll right |
-| ⇪ + F + ; | ⌃ + 4 | Hammerspoon: Scroll half a page down |
-| ⇪ + F + Y | ⌃ + 5 | Hammerspoon: Scroll half a page up |
-| ⇪ + F + U | ⌃ + 6 | Hammerspoon: Scroll a full page down |
-| ⇪ + F + I | ⌃ + 7 | Hammerspoon: Scroll a full page up |
-| ⇪ + F + O | ⌃ + 8 | Hammerspoon: Scroll to the bottom of the window |
-| ⇪ + F + P | ⌃ + 9 | Hammerspoon: Scroll to the top of the window |
-| ⇪ + F + N |  |  |
+| ⇪ + F + H | ⌃ + ` | HS: Scroll down |
+| ⇪ + F + J | ⌃ + 1 | HS: Scroll up |
+| ⇪ + F + K | ⌃ + 2 | HS: Scroll left |
+| ⇪ + F + L | ⌃ + 3 | HS: Scroll right |
+| ⇪ + F + ; | ⌃ + 4 | HS: Scroll half a page down |
+| ⇪ + F + Y | ⌃ + 5 | HS: Scroll half a page up |
+| ⇪ + F + U | ⌃ + 6 | HS: Scroll a full page down |
+| ⇪ + F + I | ⌃ + 7 | HS: Scroll a full page up |
+| ⇪ + F + O | ⌃ + 8 | HS: Scroll to the bottom |
+| ⇪ + F + P | ⌃ + 9 | HS: scroll to the top |
+| ⇪ + F + N | ⌃ + 0 | HS: move cursor near right center of window |
 | ⇪ + F + M |  |  |
 | ⇪ + F + , |  |  |
 | ⇪ + F + . |  |  |
 | ⇪ + F + / |  |  |
+
+---
+
+## Chrome Tabs Layer
+
+| Key / Shortcut | Behavior | Description |
+| --- | --- | --- |
+| ⇪ + R + H | ⌘ + 1 | Move to the first tab |
+| ⇪ + R + J | ⌘ + ⌥ + ← | Move to the left tab |
+| ⇪ + R + K | ⌘ + ⌥ + → | Move to the right tab |
+| ⇪ + R + L | ⌘ + 9 | Move to the last tab |
+| ⇪ + R + ; | Esc; T | Trigger Vimium Tab search |
+| ⇪ + R + Y | ⌘ + ⇧ + Page Up | Move tab to the left |
+| ⇪ + R + U | ⌘ + ← | Move back in history |
+| ⇪ + R + I | ⌘ + → | Move forward in history |
+| ⇪ + R + O | ⌘ + ⇧ + Page Down | Move tab to the right  |
+| ⇪ + R + P | Esc; o | Trigger Vimium history search |
+| ⇪ + R + N |  |  |
+| ⇪ + R + M |  |  |
+| ⇪ + R + , |  |  |
+| ⇪ + R + . |  |  |
+| ⇪ + R + / |  |  |
 
 ---
 
@@ -122,9 +146,9 @@
 | ⌃ + 5 | Scroll half a page up |
 | ⌃ + 6 | Scroll a full page down |
 | ⌃ + 7 | Scroll a full page up |
-| ⌃ + 8 | Scroll to the bottom of the window |
-| ⌃ + 9 | Scroll to the top of the window |
-| ⌃ + 0 |  |
+| ⌃ + 8 | Scroll to the bottom |
+| ⌃ + 9 | scroll to the top |
+| ⌃ + 0 | move cursor near right center of window |
 | ⌃ + - |  |
 | ⌃ + = |  |
 | ⌃ + [ |  |
