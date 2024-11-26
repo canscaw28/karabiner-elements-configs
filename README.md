@@ -12,7 +12,7 @@
 | ⇪ + Q |  |  |
 | ⇪ + W |  |  |
 | ⇪ + E |  |  |
-| ⇪ + R |  |  |
+| ⇪ + R | Layer 5 | Chrome Tabs Layer |
 | ⇪ + T |  |  |
 | ⇪ + Z |  |  |
 | ⇪ + X |  |  |
@@ -119,16 +119,19 @@
 | ⇪ + R + K | ⌘ + ⌥ + → | Move to the right tab |
 | ⇪ + R + L | ⌘ + 9 | Move to the last tab |
 | ⇪ + R + ; | Esc; T | Trigger Vimium Tab search |
-| ⇪ + R + Y | ⌘ + ⇧ + Page Up | Move tab to the left |
-| ⇪ + R + U | ⌘ + ← | Move back in history |
-| ⇪ + R + I | ⌘ + → | Move forward in history |
-| ⇪ + R + O | ⌘ + ⇧ + Page Down | Move tab to the right  |
-| ⇪ + R + P | Esc; o | Trigger Vimium history search |
-| ⇪ + R + N |  |  |
-| ⇪ + R + M |  |  |
-| ⇪ + R + , |  |  |
-| ⇪ + R + . |  |  |
-| ⇪ + R + / |  |  |
+| ⇪ + R + ‘ | Esc; o | Trigger Vimium history search |
+| ⇪ + R + Y | Esc; 100<< | Trigger Vimium, move tab to position 0 |
+| ⇪ + R + U | ⌃ + ⇧ + Page Up | Move tab to the left |
+| ⇪ + R + I | ⌃ + ⇧ + Page Down | Move tab to the right |
+| ⇪ + R + O | Esc; 100>> | Trigger Vimium, move tab to last position |
+| ⇪ + R + P | Esc; yt | Trigger Vimium Duplicate tab |
+| ⇪ + R + [ | ⌘ + ← | Move back in history |
+| ⇪ + R + ] | ⌘ + → | Move forward in history |
+| ⇪ + R + N |  | Move tab to left adjacent chrome windows |
+| ⇪ + R + M |  | Move tab to bottom adjacent chrome window |
+| ⇪ + R + , |  | Move tab to top adjacent chrome window |
+| ⇪ + R + . |  | Move tab to right adjacent chrome window |
+| ⇪ + R + / | ⌘ + W | Delete current tab |
 
 ---
 
