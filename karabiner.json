@@ -3925,7 +3925,7 @@
                 "to": [
                   {
                     "key_code": "minus",
-                    "modifiers": ["command", "control", "option"]
+                    "modifiers": ["command", "control", "option", "shift"]
                   }
                 ],
                 "type": "basic"
@@ -3975,7 +3975,7 @@
                 "to": [
                   {
                     "key_code": "equal_sign",
-                    "modifiers": ["command", "control", "option"]
+                    "modifiers": ["command", "control", "option", "shift"]
                   }
                 ],
                 "type": "basic"
