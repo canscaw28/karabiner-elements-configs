@@ -3919,12 +3919,12 @@
                   }
                 ],
                 "from": {
-                  "key_code": "minus",
+                  "key_code": "hyphen",
                   "modifiers": { "optional": ["any"] }
                 },
                 "to": [
                   {
-                    "key_code": "minus",
+                    "key_code": "hyphen",
                     "modifiers": ["command", "control", "option", "shift"]
                   }
                 ],
