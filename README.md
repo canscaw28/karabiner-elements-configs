@@ -13,7 +13,7 @@
 | ⇪ + W |  |  |
 | ⇪ + E |  |  |
 | ⇪ + R | Layer 5 | Chrome Tabs Layer |
-| ⇪ + T |  |  |
+| ⇪ + T | Layer 6 | Aerospace Window Tiling Layer |
 | ⇪ + Z |  |  |
 | ⇪ + X |  |  |
 | ⇪ + C |  |  |
@@ -132,6 +132,33 @@
 | ⇪ + R + , |  | Move tab to top adjacent chrome window |
 | ⇪ + R + . |  | Move tab to right adjacent chrome window |
 | ⇪ + R + / | ⌘ + W | Delete current tab |
+
+---
+
+## Aerospace Window Tiling Layer
+
+| Key / Shortcut | Behavior | Description |
+| --- | --- | --- |
+| ⇪ + T + H | ⌘ + ⌥ + ⌃ + H | Focus left  |
+| ⇪ + T + J | ⌘ + ⌥ + ⌃ + J | Focus down |
+| ⇪ + T + K | ⌘ + ⌥ + ⌃ + K | Focus up |
+| ⇪ + T + L | ⌘ + ⌥ + ⌃ + L | Focus right |
+| ⇪ + T + ; | ⌘ + ⌥ + ⌃ + ; | Mode service |
+| ⇪ + T + ‘ |  |  |
+| ⇪ + T + Y | ⌘ + ⌥ + ⌃ + H | Move left |
+| ⇪ + T + U | ⌘ + ⌥ + ⌃ + J | Move down |
+| ⇪ + T + I | ⌘ + ⌥ + ⌃ + K | Move up |
+| ⇪ + T + O | ⌘ + ⌥ + ⌃ + L | Move right |
+| ⇪ + T + P |  |  |
+| ⇪ + T + [ |  |  |
+| ⇪ + T + ] |  |  |
+| ⇪ + T + N | ⌘ + ⌥ + ⌃ + N | Join with left |
+| ⇪ + T + M | ⌘ + ⌥ + ⌃ + M | Join with down |
+| ⇪ + T + , | ⌘ + ⌥ + ⌃ + , | Join with up |
+| ⇪ + T + . | ⌘ + ⌥ + ⌃ + . | Join with right |
+| ⇪ + T + / |  |  |
+| ⇪ + T + - | ⌘ + ⌥ + ⌃ + - | Resize smart -50 |
+| ⇪ + T + = | ⌘ + ⌥ + ⌃ + = | Resize smart +50 |
 
 ---
 
